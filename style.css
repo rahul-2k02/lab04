@@ -1,0 +1,78 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  body {
+    size: 50px;
+    padding: 90px;
+    padding-left: 400px;
+    background: linear-gradient(azure,rgb(214, 214, 214));
+  }
+
+  label {
+    display: block;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  input {
+    margin-bottom: 20px;
+    border: none;
+    font-size: 20px;
+    border-bottom: 2px solid #585858;
+    color: #585858;
+    padding: 2px 15px;
+  }
+  input:focus {
+    outline: none;
+    border-bottom: 2.4px solid #c0c0c0;
+  }
+  .input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .input-wrapper input {
+    width: 100%;
+  }
+  .time-wrapper input {
+    width: 60%;
+  }
+  select {
+    width: 35%;
+    border: 1px solid #585858;
+    font-size: 20px;
+    margin-left: 3%;
+    padding: 8px 0;
+    border-radius: 5px;
+  }
+  button {
+    display: block;
+    background-color: #0e1612;
+    border: none;
+    color: #ffffff;
+    margin: 20px auto 0 auto;
+    margin-bottom: auto;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  #result {
+    background-color: #999999;
+    margin-top: 10px;
+    margin-left: -100px;
+    color: #585858;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 50px;
+    border-radius: 10px;
+  }
+  #result div {
+    margin-bottom: 100px;
+  }
+  #result span {
+    color: #000000;
+    font-weight: 500;
+  }
